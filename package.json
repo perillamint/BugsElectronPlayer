@@ -41,6 +41,7 @@
         "mpris-service": "^1.1.3"
     },
     "dependencies": {
+        "dbus": "^1.0.0",
         "require-rebuild": "^1.2.8"
     }
 }
