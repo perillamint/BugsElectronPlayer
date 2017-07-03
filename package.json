@@ -17,8 +17,8 @@
     "repository": "https://github.com/yangbeom/BugsElectronPlayer",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^1.4.7",
-        "electron-builder": "^13.9.0",
+        "electron": "^1.6.11",
+        "electron-builder": "^19.11.1",
         "electron-rebuild": "^1.5.11"
     },
     "build": {
