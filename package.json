@@ -19,7 +19,7 @@
     "devDependencies": {
         "electron": "^1.4.7",
         "electron-builder": "^13.9.0",
-        "electron-rebuild": "^1.5.7"
+        "electron-rebuild": "^1.5.11"
     },
     "build": {
         "appId": "BugsElectronPlayer",
