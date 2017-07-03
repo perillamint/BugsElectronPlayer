@@ -7,7 +7,7 @@
     "scripts": {
         "start": "electron ./app/main.js",
         "build": "build -lm --x64",
-        "dbus": "./node_modules/.bin/electron-rebuild -f -w dbus"
+        "rebuild": "./node_modules/.bin/electron-rebuild -f -w dbus"
     },
     "author": "yangbeom",
     "bugs": {
