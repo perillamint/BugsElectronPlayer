@@ -1,12 +1,13 @@
 {
     "name": "BugsElectronPlayer",
     "productName": "BugsElectronPlayer",
-    "version": "1.1.1",
+    "version": "1.2.3",
     "description": "BugsElectronPlayer",
     "main": "./app/main.js",
     "scripts": {
         "start": "electron ./app/main.js",
-        "build": "build -lm --x64 --ia32"
+        "build": "build -lm --x64",
+        "dbus": "./node_modules/.bin/electron-rebuild -f -w dbus"
     },
     "author": "yangbeom",
     "bugs": {
@@ -22,11 +23,13 @@
     },
     "build": {
         "appId": "BugsElectronPlayer",
+        "asar": false,
         "linux": {
             "target": [
-                "zip"
+                "dir"
             ],
-            "executeableName": "BugsElectronPlayer"
+            "executeableName": "BugsElectronPlayer",
+            "icon": "./build/120x120.png"
         },
         "mac": {
             "target": [
